@@ -4,12 +4,15 @@ function setup() {
 }
 
 function draw() {
+    background(50,50,100); //Dark blue background
+
     //Game loop will go here
-    fill(255, 0, 0);
-    ellipse(50, 50, 20, 20);
+    fill(255, 100, 100);
+    stroke(255)
+    rect(100,100,50,50)
 
     //Display game title type
-    fill(0);
+    fill(100,255,100); //light green fill
     textSize(24);
     textAlign(CENTER);
     Text("Marble Maze - coming soon!", width/2, height/2)
