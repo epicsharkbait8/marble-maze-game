@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
     //Game loop will go here
-    FileList(255, 0, 0);
+    fill(255, 0, 0);
     ellipse(50, 50, 20, 20);
 
     //Display game title type
